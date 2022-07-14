@@ -1,14 +1,14 @@
 {
     "canisters": {
-        "complex_types": {
+        "azle": {
             "type": "custom",
-            "build": "npx azle complex_types",
-            "root": "src",
-            "ts": "src/complex_types.ts",
-            "candid": "src/complex_types.did",
-            "wasm": "target/wasm32-unknown-unknown/release/complex_types.wasm",
+            "build": "npx azle azle",
+            "root": "canisters/azle",
+            "ts": "canisters/azle/index.ts",
+            "candid": "canisters/azle/index.did",
+            "wasm": "target/wasm32-unknown-unknown/release/azle.wasm",
             "declarations": {
-                "output": "test/dfx_generated/complex_types"
+                "output": "test/dfx_generated/azle"
             }
         }
     }
